@@ -1,0 +1,29 @@
+﻿# Secrets und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private SSH-Schlüssel
+id_rsa
+id_ed25519
+
+# Logs und Backups
+*.log
+*.bak
+*.backup
+
+# Lokale Datenbanken
+*.sqlite
+*.db
+
+# Virtuelle Maschinen
+*.vdi
+*.vbox
+*.vbox-prev
+
+# Betriebssystem und Editoren
+.DS_Store
+Thumbs.db
+.vscode/
